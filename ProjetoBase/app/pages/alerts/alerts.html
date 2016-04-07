@@ -1,0 +1,14 @@
+<ion-navbar *navbar>
+  <button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-title>Alerts</ion-title>
+</ion-navbar>
+
+<ion-content padding>
+	<button light block outline (click)="doAlert()">Show Basic Alert</button>
+	<button block outline (click)="doPrompt()">Show Prompt Alert</button>
+	<button secondary block outline (click)="doConfirm()">Show Confirmation Alert</button>
+	<button danger block outline (click)="doRadio()">Show Radio Alert</button>
+	<button dark block outline (click)="doCheckbox()">Show Checkbox Alert</button>
+</ion-content>

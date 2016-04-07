@@ -1,0 +1,30 @@
+<ion-navbar *navbar>
+  <button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-title>Weather</ion-title>
+</ion-navbar>
+
+
+<ion-content class="has-header components-demo cards-bg">
+  <ion-card class="advanced-background">
+  <img src="img/advance-card-alaska.jpg"/>
+
+  <ion-item class="advanced-trans">
+    <p item-left>ALASKA, USA</p>
+    <p item-right>SUN</p>
+  </ion-item>
+
+  <p class="advanced-background-title advanced-background-title-large">
+    <ion-icon name='moon'></ion-icon>
+    <span>23&deg;</span>
+  </p>
+
+  <ion-tabs light class="advanced-weather-tabs" no-navbar tabbarPlacement="bottom">
+    <ion-tab light tabTitle="Sun" tabIcon="sunny"></ion-tab>
+    <ion-tab tabTitle="Mon" tabIcon="snow"></ion-tab>
+    <ion-tab tabTitle="Tue" tabIcon="cloudy"></ion-tab>
+  </ion-tabs>
+</ion-card>
+
+</ion-content>
